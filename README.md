@@ -1,5 +1,5 @@
 # My_Learning-Steem
-A content based Blockchain
+#### An incentivized content creation and curation based Blockchain
 
 ## Resources
 * basics of the JSON RPC system - https://steemit.com/steem/@klye/an-introduction-to-steemd-api-calls-functions-and-usage
