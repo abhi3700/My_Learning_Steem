@@ -33,3 +33,6 @@ s.get_account('ned')['sbd_balance']
 ```
 
 *******************************************************************************************************************
+
+### Resources - 
+* https://utopian.io/utopian-io/@jefpatat/how-to-get-steem-python-working-on-windows
