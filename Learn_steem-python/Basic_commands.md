@@ -34,24 +34,24 @@ Here, all the keys required to access account's different features.
 ##### Owner
 ```python
 >>> s.get_account('abhi3700')['owner']
-{'weight_threshold': 1, 'account_auths': [], 'key_auths': [['STM6ihsdp1csAV4PP3L9iR32BDTs2YMMuKKFucf4cPFGsMo4JNBdA', 1]]}
+{'weight_threshold': 1, 'account_auths': [], 'key_auths': [['**************************************************', 1]]}
 ```
 
 ##### Active 
 ```python
 >>> s.get_account('abhi3700')['active']
-{'weight_threshold': 1, 'account_auths': [], 'key_auths': [['STM7pC2cAQKJyvx4bTVymHmsEsv7MdpLHavfGwsH9xdmvzwUbUfJ9', 1]]}
+{'weight_threshold': 1, 'account_auths': [], 'key_auths': [['**************************************************', 1]]}
 ```
 
 ##### Posting
 ```python
 >>> s.get_account('abhi3700')['posting']
-{'weight_threshold': 1, 'account_auths': [['utopian.app', 1]], 'key_auths': [['STM7qcX28MAA5KD8bDiJ9NpQjmKx6gPmr51d8LrMV8SFxKTBi8WzS', 1]]}
+{'weight_threshold': 1, 'account_auths': [['utopian.app', 1]], 'key_auths': [['**************************************************', 1]]}
 ```
 ##### Memo
 ```python
 >>> s.get_account('abhi3700')['memo_key']
-'STM67gGcjV8Fg3xMtDvWuzYZoxWs6amHethQPihUuCcnv3EMTeb3J'
+'**************************************************'
 ```
 #### Public Profile Settings
 This shows the meta-data about the user.
@@ -96,9 +96,64 @@ If your account gets hacked, it can be recovered before any data is manipulated.
 >>> s.get_account('abhi3700')['last_account_recovery']
 '1970-01-01T00:00:00'
 ```
+**Details**: Click [here](https://steemit.com/steem/@someguy123/how-the-steem-account-recovery-works-and-why-your-trustee-can-t-steal-your-account)
 
+#### Post counts
+The no. of posts posted by the user.
+```python
+>>> s.get_account('abhi3700')['post_count']
+198
+```
+#### Can vote
+Whether a person can vote or not.
+```python
+>>> s.get_account('abhi3700')['can_vote']
+True
+```
 
+#### Voting Power
+This depends upon the 'steem power' a user holds. Here, it calculates out of 10,000. 
+```python
+>>> s.get_account('abhi3700')['voting_power']
+9800
+```
+So, I hold 98 % voting power currently.
 
+#### Last vote time
+Last time, I voted.
+```python
+>>> s.get_account('abhi3700')['last_vote_time']
+'2017-12-01T18:30:27'
+```
+#### Balance
+All balances in steem, SBD.
+```python
+>>> s.get_account('abhi3700')['balance']
+'0.000 STEEM'
 
+>>> s.get_account('abhi3700')['sbd_balance']
+'0.603 SBD'
+
+>>> s.get_account('abhi3700')['savings_sbd_balance']
+'0.000 SBD'
+```
+
+#### Vesting
+Basically, it defines the steem power.
+**Details** - Click [here](https://steemit.com/steemitguide/@steemitguide/steemitguide-what-exactly-is-vested-steem-why-is-it-important-for-you-know-how-smart-contracts-allocates-power-within-the)
+```python
+>>> s.get_account('abhi3700')['vesting_shares']
+'1038936.179712 VESTS'
+>>> s.get_account('abhi3700')['delegated_vesting_shares']
+'0.000000 VESTS'
+>>> s.get_account('abhi3700')['received_vesting_shares']
+'12358.959056 VESTS'
+>>> s.get_account('abhi3700')['vesting_withdraw_rate']
+'0.000000 VESTS'
+>>> s.get_account('abhi3700')['next_vesting_withdrawal']
+'1969-12-31T23:59:59'
+```
+Basically, I have never withdrawn my *steem-power*. The time itself indicates i.e. before Jan 1, 1970 ())
+ 
 
 
