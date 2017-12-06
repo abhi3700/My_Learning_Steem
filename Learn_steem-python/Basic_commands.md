@@ -169,7 +169,8 @@ It is like holding a percent of the network.
 
 >>> s.get_account('abhi3700')['last_bandwidth_update']
 '2017-12-06T20:42:42'
-***
+
+**************************************************************************************************************************
 # Market bandwidth
 >>> s.get_account('abhi3700')['average_market_bandwidth']
 1660341514
@@ -179,7 +180,6 @@ It is like holding a percent of the network.
 
 >>> s.get_account('abhi3700')['last_market_bandwidth_update']
 '2017-12-06T20:42:42'
-
 ```
 
 
