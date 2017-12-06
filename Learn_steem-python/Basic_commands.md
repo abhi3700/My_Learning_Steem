@@ -155,5 +155,31 @@ Basically, it defines the steem power.
 ```
 Basically, I have never withdrawn my *steem-power*. The time itself indicates i.e. before Jan 1, 1970 ())
  
+#### Bandwidth
+It is the power to post, upvote, comment. The more Steem-power one has, the more steem-blockchain's bandwidth is owned by the user.
+It is like holding a percent of the network.
+
+```python
+# Content post bandwidth
+>>> s.get_account('abhi3700')['average_bandwidth']
+'46792401000'
+
+>>> s.get_account('abhi3700')['lifetime_bandwidth']
+'677875000000'
+
+>>> s.get_account('abhi3700')['last_bandwidth_update']
+'2017-12-06T20:42:42'
+***
+# Market bandwidth
+>>> s.get_account('abhi3700')['average_market_bandwidth']
+1660341514
+
+>>> s.get_account('abhi3700')['lifetime_market_bandwidth']
+'24130000000'
+
+>>> s.get_account('abhi3700')['last_market_bandwidth_update']
+'2017-12-06T20:42:42'
+
+```
 
 
