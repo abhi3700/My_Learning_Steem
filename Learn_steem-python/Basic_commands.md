@@ -127,6 +127,9 @@ Last time, I voted.
 ```
 #### Balance
 All balances in steem, SBD.
+The user account looks like this...
+![](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Images/wallet.png)
+
 ```python
 >>> s.get_account('abhi3700')['balance']
 '0.000 STEEM'
@@ -170,7 +173,7 @@ It is like holding a percent of the network.
 >>> s.get_account('abhi3700')['last_bandwidth_update']
 '2017-12-06T20:42:42'
 
-**************************************************************************************************************************
+**************************************************************************************************
 # Market bandwidth
 >>> s.get_account('abhi3700')['average_market_bandwidth']
 1660341514
@@ -182,4 +185,17 @@ It is like holding a percent of the network.
 '2017-12-06T20:42:42'
 ```
 
+#### Last post date
+The date, time for last post.
+```python
+>>> s.get_account('abhi3700')['last_post']
+'2017-12-03T13:20:21'
+```
+
+#### Witness votes
+The witnesses I have voted for.
+```python
+>>> s.get_account('abhi3700')['witness_votes']
+['steemed', 'utopian-io']
+```
 
