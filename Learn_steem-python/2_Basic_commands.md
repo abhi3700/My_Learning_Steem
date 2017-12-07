@@ -201,3 +201,5 @@ The witnesses I have voted for.
 Basically, all the above discussed user properties can be viewed here...
 ![steemd_user.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512664879/wx2a8i2bsws3ejziszen.png)
 
+### View in [Steemit](https://steemit.com/utopian-io/@abhi3700/learn-steem-python-2-basic-commands)
+
