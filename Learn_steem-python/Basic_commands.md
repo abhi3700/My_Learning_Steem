@@ -198,4 +198,6 @@ The witnesses I have voted for.
 >>> s.get_account('abhi3700')['witness_votes']
 ['steemed', 'utopian-io']
 ```
+Basically, all the above discussed user properties can be viewed here...
+![steemd_user.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512664879/wx2a8i2bsws3ejziszen.png)
 
