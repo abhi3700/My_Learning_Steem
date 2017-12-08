@@ -1,3 +1,11 @@
+![learn_steem-python.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512602616/wfsroqejia8tvjjsmlrq.png)
+
+Hi Guys!!...
+
+### Today in this tutorial, we will learn about few basic commands for programming the **Steem blockchain** using *Python* language.
+
+Please, refer to [Part 1](https://utopian.io/utopian-io/@abhi3700/learn-steem-python-1-installation-guide) before going any further, if the required tools are not installed.
+
 ## Introduction
 This is all about practising the basic commands of **"Steem-Python"**. 
 
@@ -13,7 +21,7 @@ Using all keys, we can query.
 ```python
 >>> s.get_account('abhi3700').keys()
 ```
-![](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Images/all_keys.png)
+![all_keys.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512602920/nwrzuxs3dadupw36eead.png)
 
 #### Id
 This represents the 'user id' of the steem account holder. This is assigned whenever the user joins for 1st time and it remains permanent for the 'username'
@@ -29,7 +37,7 @@ This represents the 'user id' of the steem account holder. This is assigned when
 #### Owner, Active, Posting, Memo Keys
 Here, all the keys required to access account's different features.
 
-![](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Images/posting_active_owner_memo_keys.png)
+![posting_active_owner_memo_keys.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512602979/ejppg7pr5ajiniitijsw.png)
 
 ##### Owner
 ```python
@@ -55,7 +63,8 @@ Here, all the keys required to access account's different features.
 ```
 #### Public Profile Settings
 This shows the meta-data about the user.
-![](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Images/public_profile_settings.png)
+![public_profile_settings.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512603030/jjpqzslh5z5qsd4cd734.png)
+
 ```python
 >>> s.get_account('abhi3700')['json_metadata']
 '{"profile":{"name":"Abhijit Roy","about":"A Software Developer, Traveller, Crypto Trader, Blockchain enthusiast","location":"Chandigarh, India","profile_image":"https://firebasestorage.googleapis.com/v0/b/bitinfocoinfree.appspot.com/o/14068548_1125160424216001_2627046384272844500_o.jpg?alt=media&token=8bb1b1f9-36f5-4b9a-8220-4134f01f8542","website":"https://play.google.com/store/apps/details?id=in.topux.bitinfocoin","cover_image":"https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-4.jpg"}}'
@@ -96,7 +105,7 @@ If your account gets hacked, it can be recovered before any data is manipulated.
 >>> s.get_account('abhi3700')['last_account_recovery']
 '1970-01-01T00:00:00'
 ```
-**Details**: Click [here](https://steemit.com/steem/@someguy123/how-the-steem-account-recovery-works-and-why-your-trustee-can-t-steal-your-account)
+Click [here](https://steemit.com/steem/@someguy123/how-the-steem-account-recovery-works-and-why-your-trustee-can-t-steal-your-account) for details.
 
 #### Post counts
 The no. of posts posted by the user.
@@ -128,7 +137,8 @@ Last time, I voted.
 #### Balance
 All balances in steem, SBD.
 The user account looks like this...
-![](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Images/wallet.png)
+![wallet.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512603104/gmdyplgadjatovjxodpg.png)
+
 
 ```python
 >>> s.get_account('abhi3700')['balance']
@@ -143,7 +153,7 @@ The user account looks like this...
 
 #### Vesting
 Basically, it defines the steem power.
-**Details** - Click [here](https://steemit.com/steemitguide/@steemitguide/steemitguide-what-exactly-is-vested-steem-why-is-it-important-for-you-know-how-smart-contracts-allocates-power-within-the)
+Click [here](https://steemit.com/steemitguide/@steemitguide/steemitguide-what-exactly-is-vested-steem-why-is-it-important-for-you-know-how-smart-contracts-allocates-power-within-the) for details.
 ```python
 >>> s.get_account('abhi3700')['vesting_shares']
 '1038936.179712 VESTS'
@@ -198,8 +208,18 @@ The witnesses I have voted for.
 >>> s.get_account('abhi3700')['witness_votes']
 ['steemed', 'utopian-io']
 ```
-Basically, all the above discussed user properties can be viewed here...
+Basically, all the above discussed user properties can be viewed here-(https://steemd.com/@username)
 ![steemd_user.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1512664879/wx2a8i2bsws3ejziszen.png)
+
+
+That's all.
+
+### Stay tuned for more such tutorials......
+
+## View in [Github](https://github.com/abhi3700/My_Learning-Steem/blob/master/Learn_steem-python/Basic_commands.md)
+
+
+<br /><hr/><em>Posted on <a href="https://utopian.io/utopian-io/@abhi3700/learn-steem-python-2-basic-commands">Utopian.io -  Rewarding Open Source Contributors</a></em><hr/>
 
 ### View in [Steemit](https://steemit.com/utopian-io/@abhi3700/learn-steem-python-2-basic-commands)
 
