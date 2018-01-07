@@ -10,3 +10,6 @@
 * Jussy - JSON-RPC 2.0 Reverse Proxy Frontend for Steemit - https://github.com/steemit/jussi
 * Condenser (The social application web front-end to the Steem Blockchain. https://steemit.com) - https://github.com/steemit/condenser
 * 
+
+## Steem Stories
+* A person saved by Steem Blockchain - https://medium.com/steem-stories/a-new-social-media-platform-may-have-just-saved-a-young-filipinos-life-d84208805fc4
