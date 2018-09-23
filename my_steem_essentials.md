@@ -7,7 +7,7 @@
   }
   ```
   
-* upvote worth calculation: 
+* #### upvote worth calculation depends on - **SP**, **Voting Power**, **Voting Weight**.
   ```js
   // These values are blockchain parameters and can be seen on https://steemd.com
   const steem_per_vest = 488.307 / 1e6; // steem_per_mvests / 1E6
