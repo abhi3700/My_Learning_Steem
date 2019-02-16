@@ -2,6 +2,7 @@
 * https://steem.readthedocs.io/en/latest/index.html
 * https://github.com/steemit/steem-python
 * https://github.com/holgern/steem-python-1
+* https://github.com/steemit/devportal-tutorials-py
 * steemscript - https://github.com/steemscript/steemscript
 * steemconnect using python - https://github.com/wise-team/python-social-auth-steemconnect-examples
 * Installation - https://steemit.com/utopian-io/@abhi3700/learn-steem-python-1-installation-guide
