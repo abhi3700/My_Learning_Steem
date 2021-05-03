@@ -1,4 +1,4 @@
-# My_Learning-Steem
+# My_Learning_Steem
 #### An incentivized content creation and curation based Blockchain
 
 ## Official
@@ -7,6 +7,12 @@
 * Steemit: Social platform - https://steemit.com/
 * Steem - https://github.com/steemit/steem
 * The blockchain for Smart Media Tokens (SMTs) and decentralized applications - https://github.com/steemit/steem
+
+## Hive
+* [My repo](https://github.com/abhi3700/My_Learning_Hive)
+* created as a fork of Steem and born on the core idea of decentralization. Originally, Hive was announced on the Steem blockchain prior to the initial token airdrop.
+* The Hive blockchain removes the elements of centralization and imbalanced control that have plagued the Steem blockchain over the last 4 years. Since it’s launch on March 20, 2020 Hive is growing and evolving day by day. Hive's prime selling points are its decentralization, 3 second transaction speed and ability to handle large volumes. It is ideal real estate for a variety of innovative projects focused on a broad range of fields, from open source development to games.
+* Hive aims to be the preferred blockchain for dApp development with Smart Media Tokens at its core. With SMTs, everyone can leverage the power of Hive.
 
 ## Concepts
 * Here, nodes are called steemd nodes like BP in EOS, Miners in Bitcoin, Ethereum
