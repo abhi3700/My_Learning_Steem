@@ -83,3 +83,6 @@
 	- steem SQL Tutorial series- https://helloacm.com/steemsql-tutorial-how-to-get-authors-order-by-potential-payout-in-last-7-days/
 		+ check for related tutorials
 	- set voting weight for minnows(<= 500 SP) - https://helloacm.com/how-to-set-voting-weight-using-python-script-for-minnows-with-less-than-500-steem-power-on-steemit/
+* [Reputation Score 101 : What is Steemit Reputation Score, How is It Calculated and Why Should We Bother?](https://steemit.com/utopian-io/@ilyastarar/reputation-score-101-what-is-steemit-reputation-score-how-is-it-calculated-and-why-should-we-bother)
+* [Token Economy](https://medium.com/@bigthumbsup/token-model-steemit-513bc3a15b6a)
+* [Understanding Steemit : Know How Steemit Reward System Works and How Rewards Are Distributed!](https://steemit.com/tutorial/@ilyastarar/understanding-steemit-know-how-steemit-reward-system-works-and-how-rewards-are-distributed)
